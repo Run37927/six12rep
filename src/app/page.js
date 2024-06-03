@@ -6,7 +6,6 @@ export default async function Home() {
 
   return (
     <MaxWidthWrapper className="mb-12 mt-8">
-      <h1>insert body here</h1>
     </MaxWidthWrapper>
   );
 }

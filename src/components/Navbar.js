@@ -23,26 +23,26 @@ async function Navbar() {
                         />
                     </Link>
 
-                    <div className='text-white items-center space-x-4 font-semibold'>
+                    <div className='text-white items-center space-x-9 font-semibold tracking-wider'>
                         <Link href='/'>
                             HOME
                         </Link>
-                        <Link href='/about'>
+                        <Link href='/portfolio'>
                             PORTFOLIO
                         </Link>
-                        <Link href='/contact'>
+                        <Link href='/services'>
                             SERVICES
                         </Link>
-                        <Link href='/blog'>
+                        <Link href='/team'>
                             TEAM
                         </Link>
-                        <Link href='/blog'>
+                        <Link href='/contact'>
                             CONTACT
                         </Link>
                     </div>
 
-                    <div>
-                        <span className='text-[#00ADEF]'>
+                    <div className='font-bold'>
+                        <span className='text-[#00ADEF] text-lg'>
                             Call 604-704-9970
                         </span>
                     </div>
