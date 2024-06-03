@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Banner() {
     return (
-        <div className="flex items-center justify-center -mt-[2.6rem] mb-12 bg-black">
+        <div className="flex items-center justify-center -mt-[2.6rem] bg-black">
             <Image
                 src="/banner.jpg"
                 alt="banner"
