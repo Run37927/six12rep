@@ -30,7 +30,7 @@ function Gallery() {
     ];
 
     return (
-        <div className="bg-[#EEE] grid grid-cols-3 gap-3">
+        <div className="bg-[#EEE] grid grid-cols-1 sm:grid-cols-3 sm:gap-3">
             {projects.map((project, index) => (
                 <div key={index} className="relative overflow-hidden group">
                     <img src={project.imgUrl} alt={project.title} className="w-full h-auto transform transition-transform duration-300 group-hover:scale-110" />

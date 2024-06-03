@@ -3,9 +3,10 @@ import DemoVideo from "@/components/DemoVideo";
 import Footer from "@/components/Footer";
 import Gallery from "@/components/Gallery";
 import Introduction from "@/components/Introduction";
+import Image from "next/image";
+import Link from "next/link";
 
 export default async function Home() {
-
   return (
     <>
       <Banner />

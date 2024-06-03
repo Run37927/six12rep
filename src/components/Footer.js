@@ -1,5 +1,4 @@
 import React from 'react'
-import MaxWidthWrapper from './MaxWidthWrapper'
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaFacebook } from "react-icons/fa";
@@ -10,7 +9,7 @@ import { FaLinkedin } from "react-icons/fa";
 function Footer() {
     return (
         <footer className='bg-black pt-14'>
-            <MaxWidthWrapper>
+            <div className='mx-auto w-full max-w-screen-xl px-4 sm:px-[5rem]'>
                 <Image
                     src="/logo_color.png"
                     alt="logo"
@@ -21,7 +20,7 @@ function Footer() {
                     className='pointer-events-none select-none object-cover mb-5'
                 />
 
-                <div className='flex flex-col text-white text-sm tracking-wide'>
+                <div className='flex flex-col text-white text-sm tracking-wide pl-4 sm:pl-0'>
                     <p>210-4259 Canada Way</p>
                     <p>Burnaby, BC</p>
                     <p>V5G 4W6 Canada</p>
@@ -30,7 +29,7 @@ function Footer() {
                     <p>Fax 604-525-8804</p>
                 </div>
 
-                <div className='flex items-center justify-between mt-4'>
+                <div className='flex flex-col pl-4 sm:pl-0 sm:flex-row sm:items-center sm:justify-between mt-28 sm:mt-4'>
                     <div className='flex items-center gap-2'>
                         <FaFacebook className='h-12 w-12 text-white bg-[#EA5736] p-2' />
                         <FaInstagramSquare className='h-12 w-12 text-white bg-[#EA5736] p-2' />
@@ -38,7 +37,7 @@ function Footer() {
                         <FaLinkedin className='h-12 w-12 text-white bg-[#EA5736] p-2' />
                     </div>
 
-                    <div className='text-[#00ADEF] items-center space-x-9 font-semibold tracking-wider'>
+                    <div className='flex flex-wrap mt-5 sm:mt-0 text-[#00ADEF] space-x-3 sm:space-x-9 font-semibold tracking-wider'>
                         <Link href='/'>
                             HOME
                         </Link>
@@ -57,10 +56,10 @@ function Footer() {
                     </div>
                 </div>
 
-                <p className='text-xs text-white text-center py-4'>
+                <p className='text-[0.5rem] sm:text-xs text-white text-center py-4'>
                     COPYRIGHT 2021 SIX12 Creaive Inc. is a full service creative marketing and design agency.
                 </p>
-            </MaxWidthWrapper>
+            </div>
         </footer>
     )
 }

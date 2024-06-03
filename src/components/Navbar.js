@@ -8,7 +8,7 @@ import Image from 'next/image'
 async function Navbar() {
 
     return (
-        <nav className="sticky h-20 inset-x-0 top-0 z-30 w-full bg-black">
+        <nav className="hidden sticky sm:h-20 inset-x-0 top-0 z-30 sm:w-full bg-black">
             <MaxWidthWrapper>
                 <div className='flex h-20 items-center justify-between'>
                     <Link href='/' className='flex z-40 font-semibold text-lg'>
