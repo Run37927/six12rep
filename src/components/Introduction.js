@@ -4,7 +4,7 @@ import { Handshake, Lightbulb, Rocket, ThumbsUp } from 'lucide-react'
 
 function Introduction() {
     return (
-        <section className='bg-[#f6f6f6] py-10'>
+        <section className='bg-[#f6f6f6] py-10 pb-16'>
             <div className='mx-auto w-full max-w-screen-xl px-[4.5rem] flex'>
                 <div className='flex flex-col items-center justify-center space-y-5'>
                     <div className='border-[4px] border-[#C0C0C0] p-4 rounded-full inline-block hover:border-[#00ADEF] hover:bg-[#00ADEF] transform transition-all duration-200 group'>
