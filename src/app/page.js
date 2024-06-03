@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner";
 import DemoVideo from "@/components/DemoVideo";
+import Footer from "@/components/Footer";
 import Gallery from "@/components/Gallery";
 import Introduction from "@/components/Introduction";
 
@@ -16,6 +17,7 @@ export default async function Home() {
         <h3>Check out our work</h3>
       </div>
       <Gallery />
+      <Footer />
     </>
   );
 }
