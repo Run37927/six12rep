@@ -7,10 +7,7 @@ import Providers from '@/components/Providers';
 
 const montserrat = Montserrat({ subsets: ['latin'] });
 
-export const metadata = {
-  title: "insert title here",
-  description: "insert description here",
-};
+export const metadata = constructMetadata();
 
 export default function RootLayout({ children }) {
   return (
