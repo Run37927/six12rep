@@ -27,6 +27,6 @@ export function constructMetadata({
       images: [image],
       creator: "@hairunhuang",
     },
-    metadataBase: new URL('https://www.37heaven.xyz')
+    metadataBase: new URL('https://six12rep-3855.vercel.app/')
   };
 }
