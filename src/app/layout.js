@@ -1,6 +1,6 @@
 import { Montserrat } from 'next/font/google'
 import "./globals.css";
-import { cn } from '@/lib/utils';
+import { cn, constructMetadata } from '@/lib/utils';
 import Navbar from '@/components/Navbar';
 import { Toaster } from '@/components/ui/toaster';
 import Providers from '@/components/Providers';
