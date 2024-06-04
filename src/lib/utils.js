@@ -8,7 +8,7 @@ export function cn(...inputs) {
 export function constructMetadata({
   title = "SIX12 | Design Ideas & Culture",
   description = "SIX12 Creaive Inc. is a full service creative marketing and design agency",
-  image = "/meta612.png",
+  image = "/thumbnail.png",
   icons = "/favicon.ico",
 } = {}) {
   return {
